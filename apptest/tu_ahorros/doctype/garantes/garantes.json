@@ -1,0 +1,130 @@
+{
+ "actions": [],
+ "autoname": "field:nombre",
+ "creation": "2021-11-22 12:12:30.524581",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ci",
+  "nombre",
+  "fecha_na",
+  "telefono",
+  "d_domicili",
+  "act_economica",
+  "vivienda_section",
+  "estado_civil",
+  "datos_del_c\u00f3nyuge_column",
+  "nombre_conyu",
+  "id_conyu",
+  "fecha_na_conyu",
+  "trabajo_conyu"
+ ],
+ "fields": [
+  {
+   "fieldname": "ci",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "C.I",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "nombre",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nombre",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "fecha_na",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Fecha de Nacimiento",
+   "reqd": 1
+  },
+  {
+   "fieldname": "telefono",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Tel\u00e9fono",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "d_domicili",
+   "fieldtype": "Data",
+   "label": "Direcci\u00f3n domiciliaria",
+   "reqd": 1
+  },
+  {
+   "fieldname": "act_economica",
+   "fieldtype": "Data",
+   "label": "Actividad econ\u00f3mica",
+   "reqd": 1
+  },
+  {
+   "fieldname": "vivienda_section",
+   "fieldtype": "Select",
+   "label": "Vivienda",
+   "options": "PROPIA\nARRENDADA\nDE FAMILIARES",
+   "reqd": 1
+  },
+  {
+   "fieldname": "estado_civil",
+   "fieldtype": "Data",
+   "label": "Estado civil"
+  },
+  {
+   "fieldname": "datos_del_c\u00f3nyuge_column",
+   "fieldtype": "Column Break",
+   "label": "Datos del c\u00f3nyuge"
+  },
+  {
+   "fieldname": "nombre_conyu",
+   "fieldtype": "Data",
+   "label": "Nombre de c\u00f3nyuge"
+  },
+  {
+   "fieldname": "id_conyu",
+   "fieldtype": "Data",
+   "label": "C.I",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "fecha_na_conyu",
+   "fieldtype": "Date",
+   "label": "Fecha de Nacimiento"
+  },
+  {
+   "fieldname": "trabajo_conyu",
+   "fieldtype": "Data",
+   "label": "Trabajo del Conyugue"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-11-22 12:12:30.524581",
+ "modified_by": "Administrator",
+ "module": "TU Ahorros",
+ "name": "garantes",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,135 @@
+{
+ "actions": [],
+ "autoname": "field:dato_soli",
+ "creation": "2021-11-22 09:04:59.835210",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fecha_cont",
+  "dato_soli",
+  "asesor",
+  "monto",
+  "producto_de_cr\u00e9dito_column",
+  "micro_credito",
+  "consumo",
+  "vivienda",
+  "agencia",
+  "cuotas",
+  "t_activo",
+  "t_pasivo",
+  "capital"
+ ],
+ "fields": [
+  {
+   "fieldname": "fecha_cont",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Fecha",
+   "reqd": 1
+  },
+  {
+   "fieldname": "dato_soli",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Datos del solicitante",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "asesor",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Asesor comercial ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "monto",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "MONTO SOLICITADO",
+   "reqd": 1
+  },
+  {
+   "fieldname": "agencia",
+   "fieldtype": "Data",
+   "label": "Agencia",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cuotas",
+   "fieldtype": "Int",
+   "label": "# Cuotas",
+   "reqd": 1
+  },
+  {
+   "fieldname": "t_activo",
+   "fieldtype": "Int",
+   "label": "Total, Activo",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "t_pasivo",
+   "fieldtype": "Int",
+   "label": "Total, Pasivos",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "capital",
+   "fieldtype": "Read Only",
+   "label": "Capital"
+  },
+  {
+   "fieldname": "producto_de_cr\u00e9dito_column",
+   "fieldtype": "Column Break",
+   "label": "Producto de Cr\u00e9dito "
+  },
+  {
+   "fieldname": "micro_credito",
+   "fieldtype": "Int",
+   "label": "Microcr\u00e9dito",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "consumo",
+   "fieldtype": "Int",
+   "label": "Consumo",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "vivienda",
+   "fieldtype": "Int",
+   "label": "Vivienda",
+   "non_negative": 1,
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-11-22 09:25:20.604929",
+ "modified_by": "Administrator",
+ "module": "TU Ahorros",
+ "name": "Datos solicitud de credito",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

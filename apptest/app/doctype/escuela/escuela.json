@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "autoname": "field:fullname",
+ "creation": "2021-11-20 01:47:52.716637",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fullname",
+  "edad",
+  "cumpleanos",
+  "correo",
+  "contrasena",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "fullname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "fullname",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "edad",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "edad",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cumpleanos",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "cumpleanos",
+   "reqd": 1
+  },
+  {
+   "fieldname": "correo",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "correo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contrasena",
+   "fieldtype": "Password",
+   "label": "contrasena",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "escuela",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-11-20 01:47:52.716637",
+ "modified_by": "Administrator",
+ "module": "app",
+ "name": "escuela",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

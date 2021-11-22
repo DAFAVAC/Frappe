@@ -1,0 +1,121 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "creation": "2021-11-21 11:21:08.928808",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "route",
+  "nombre",
+  "edad",
+  "fecha_nacimient",
+  "fecha_defuncion",
+  "correo",
+  "contrase\u00f1a",
+  "escuela",
+  "amended_from",
+  "text_editor_10"
+ ],
+ "fields": [
+  {
+   "fieldname": "nombre",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "edad",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "edad"
+  },
+  {
+   "fieldname": "fecha_nacimient",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "fecha_nacimient"
+  },
+  {
+   "fieldname": "fecha_defuncion",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "fecha_defuncion"
+  },
+  {
+   "fieldname": "correo",
+   "fieldtype": "Data",
+   "label": "correo"
+  },
+  {
+   "fieldname": "contrase\u00f1a",
+   "fieldtype": "Password",
+   "label": "contrase\u00f1a"
+  },
+  {
+   "fieldname": "escuela",
+   "fieldtype": "Section Break",
+   "options": "escuela"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Example",
+   "no_copy": 1,
+   "options": "Example",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  },
+  {
+   "fieldname": "text_editor_10",
+   "fieldtype": "Markdown Editor",
+   "label": "Texto"
+  }
+ ],
+ "has_web_view": 1,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-11-21 21:31:11.782091",
+ "modified_by": "Administrator",
+ "module": "app",
+ "name": "Example",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Daniel",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "route": "articulo",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
